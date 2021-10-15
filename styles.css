@@ -1,0 +1,47 @@
+@import url("https://use.typekit.net/pla1dam.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: acumin-pro,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #6F4C5B;;
+}
+
+h1 {
+    font-family: hegante, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #6F4C5B;
+    letter-spacing: .02em;
+}
+
+.header {               /* set the header (the container for all the nested elements to be flex*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-background-color{
+    background-color: #F5E8C7;
+}
+
+.nav-links {              /* changed the nav links to have no bullet points*/
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+
+
